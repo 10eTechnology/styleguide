@@ -1,0 +1,60 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "jest": true
+  },
+  "globals": {
+    "fetch": false
+  },
+  "plugins": ["react", "jsx-a11y", "import"],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./web/webpack.config.dev.js"
+      }
+    }
+  },
+  "rules": {
+    "complexity": "error",
+    "key-spacing": ["error", {
+      "align": "value"
+    }],
+    "newline-after-var": "error",
+    "newline-before-return": "error",
+    "no-empty-function": "error",
+    "no-multi-spaces": ["error", {
+      "exceptions": {
+        "VariableDeclarator": true
+      }
+    }],
+    "max-depth": "error",
+    "max-len": ["error", 80],
+    "max-statements-per-line": ["error", {
+      "max": 1
+    }],
+    "newline-per-chained-call": ["error", {
+      "ignoreChainWithDepth": 2
+    }],
+    "indent": ["error", 2, {
+      "SwitchCase": 1,
+      "VariableDeclarator": 1,
+      "outerIIFEBody": 1,
+      "MemberExpression": 1,
+      "CallExpression": {
+        "parameters": "first"
+      },
+      "FunctionDeclaration": {
+        "parameters": 1,
+        "body": 1
+      },
+      "FunctionExpression": {
+        "parameters": 1,
+        "body": 1
+      }
+    }],
+    "react/jsx-filename-extension": ["error", {
+      "extensions": [".js", ".jsx"]
+    }],
+    "react/prefer-stateless-function": "error"
+  }
+}
