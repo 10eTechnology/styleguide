@@ -1,5 +1,23 @@
 # Javascript styleguide
 
+## Quickstart
+
+You can include these rulesets in your local setup by including this repository
+as a submodule.
+
+```
+$ cd MY_PROJECT/
+$ git submodule add https://github.com/10eTechnology/styleguide.git styleguide
+```
+
+Then add the following to your `.eslintrc.json` file:
+
+```
+{
+  "extends": "./styleguide/javascript/.eslintrc.json"
+}
+```
+
 ## Extends
 
 This rule set extends the popular [Airbnb eslint config](https://github.com/airbnb/javascript)
