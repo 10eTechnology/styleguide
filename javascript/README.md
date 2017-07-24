@@ -18,11 +18,17 @@ Then add the following to your `.eslintrc.json` file:
 }
 ```
 
+Make sure you have the following `npm` modules installed:
+  * "eslint": "^4.3.0"
+  * "eslint-config-airbnb": "^15.1.0",
+  * "eslint-plugin-import": "^2.7.0"
+  * "eslint-plugin-jsx-a11y": "^5.1.1"
+  * "eslint-plugin-react": "^7.1.0"
+
 ## Extends
 
 This rule set extends the popular [Airbnb eslint config](https://github.com/airbnb/javascript)
 with some specific rules that fit our coding style.
-
 
 ## Plugins
 

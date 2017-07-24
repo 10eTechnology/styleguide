@@ -41,7 +41,7 @@
       "outerIIFEBody": 1,
       "MemberExpression": 1,
       "CallExpression": {
-        "parameters": "first"
+        "arguments": "first"
       },
       "FunctionDeclaration": {
         "parameters": 1,
