@@ -1,12 +1,15 @@
 {
-  "extends": "airbnb",
+  "extends": [
+    "airbnb",
+    "plugin:jest/recommended"
+  ],
   "env": {
     "jest": true
   },
   "globals": {
     "fetch": false
   },
-  "plugins": ["react", "jsx-a11y", "import"],
+  "plugins": ["react", "jsx-a11y", "import", "jest"],
   "settings": {
     "import/resolver": {
       "webpack": {
