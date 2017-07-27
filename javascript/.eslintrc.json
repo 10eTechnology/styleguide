@@ -7,7 +7,8 @@
     "jest": true
   },
   "globals": {
-    "fetch": false
+    "fetch": false,
+    "context": false
   },
   "plugins": ["react", "jsx-a11y", "import", "jest"],
   "settings": {
