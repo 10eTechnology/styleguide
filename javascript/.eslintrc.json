@@ -8,7 +8,13 @@
   },
   "globals": {
     "fetch": false,
-    "context": false
+    "context": false,
+    "mount": false,
+    "sleep": false,
+    "simulateKey": false,
+    "simulateKeys": false,
+    "simulatePaste": false,
+    "simulateClick": false
   },
   "plugins": ["react", "jsx-a11y", "import", "jest"],
   "settings": {
