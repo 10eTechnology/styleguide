@@ -14,7 +14,9 @@
     "simulateKey": false,
     "simulateKeys": false,
     "simulatePaste": false,
-    "simulateClick": false
+    "simulateClick": false,
+    "jasmine": false,
+    "driver": true
   },
   "plugins": ["react", "jsx-a11y", "import", "jest"],
   "settings": {
