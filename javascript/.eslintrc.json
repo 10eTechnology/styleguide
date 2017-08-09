@@ -67,6 +67,7 @@
     "react/jsx-filename-extension": ["error", {
       "extensions": [".js", ".jsx"]
     }],
-    "react/prefer-stateless-function": "error"
+    "react/prefer-stateless-function": "error",
+    "valid-jsdoc": "error"
   }
 }
