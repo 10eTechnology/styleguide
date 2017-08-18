@@ -9,12 +9,15 @@
   "globals": {
     "fetch": false,
     "context": false,
+    "mockReduxStore": false,
     "mount": false,
+    "mountWithRouter": false,
     "sleep": false,
     "simulateKey": false,
     "simulateKeys": false,
     "simulatePaste": false,
     "simulateClick": false,
+    "simulatePress": false,
     "jasmine": false,
     "driver": true
   },
