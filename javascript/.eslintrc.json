@@ -17,6 +17,7 @@
     "simulateKeys": false,
     "simulatePaste": false,
     "simulateClick": false,
+    "simulatePress": false,
     "jasmine": false,
     "driver": true
   },
