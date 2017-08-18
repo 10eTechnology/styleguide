@@ -9,7 +9,9 @@
   "globals": {
     "fetch": false,
     "context": false,
+    "mockReduxStore": false,
     "mount": false,
+    "mountWithRouter": false,
     "sleep": false,
     "simulateKey": false,
     "simulateKeys": false,
