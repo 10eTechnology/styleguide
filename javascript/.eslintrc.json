@@ -73,6 +73,8 @@
       "extensions": [".js", ".jsx"]
     }],
     "react/prefer-stateless-function": "error",
-    "valid-jsdoc": "error"
+    "react/no-typos": 0,
+    "valid-jsdoc": "error",
+    "prefer-destructuring": 0
   }
 }
