@@ -8,16 +8,17 @@
     "jest": true
   },
   "globals": {
-    "fetch": false,
     "context": false,
+    "driver": true,
+    "fetch": false,
+    "jasmine": false,
     "mockReduxStore": false,
     "mount": false,
     "mountWithRouter": false,
     "sleep": false,
     "simulateClick": false,
     "simulatePress": false,
-    "jasmine": false,
-    "driver": true
+    "System": false
   },
   "plugins": ["react", "jsx-a11y", "import", "jest", "flowtype"],
   "settings": {
