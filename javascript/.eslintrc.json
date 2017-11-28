@@ -73,6 +73,7 @@
     "react/jsx-filename-extension": ["error", {
       "extensions": [".js", ".jsx"]
     }],
+    "react/jsx-no-duplicate-props": "error",
     "react/prefer-stateless-function": "error",
     "react/no-typos": 0,
     "valid-jsdoc": "error",
