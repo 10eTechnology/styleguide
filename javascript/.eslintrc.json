@@ -8,19 +8,17 @@
     "jest": true
   },
   "globals": {
-    "fetch": false,
     "context": false,
+    "driver": true,
+    "fetch": false,
+    "jasmine": false,
     "mockReduxStore": false,
     "mount": false,
     "mountWithRouter": false,
     "sleep": false,
-    "simulateKey": false,
-    "simulateKeys": false,
-    "simulatePaste": false,
     "simulateClick": false,
     "simulatePress": false,
-    "jasmine": false,
-    "driver": true
+    "System": false
   },
   "plugins": ["react", "jsx-a11y", "import", "jest", "flowtype"],
   "settings": {
@@ -37,6 +35,10 @@
     }],
     "newline-after-var": "error",
     "newline-before-return": "error",
+    "function-paren-newline": [
+      "error",
+      "multiline"
+    ],
     "no-empty-function": "error",
     "no-multi-spaces": ["error", {
       "exceptions": {
@@ -71,7 +73,9 @@
     "react/jsx-filename-extension": ["error", {
       "extensions": [".js", ".jsx"]
     }],
+    "react/jsx-no-duplicate-props": "error",
     "react/prefer-stateless-function": "error",
+    "react/no-typos": 0,
     "valid-jsdoc": "error"
   }
 }
